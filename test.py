@@ -20,7 +20,7 @@ from flask import request
 
 app = Flask(__name__)
 
-@app.route('/expensePOC', methods = ['POST'])
+@app.route('/', methods = ['POST'])
 
 def expenseModel_CC(cntLimIntRate = 3.00
                     ,cntBalMonths = 36
